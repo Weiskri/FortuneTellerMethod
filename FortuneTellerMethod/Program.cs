@@ -14,6 +14,7 @@ namespace FortuneTellerMethod
             // initial greeting
             Console.WriteLine("Hello, welcome to the fortune teller program.");
             Console.WriteLine("To find out your future, I will ask you a series of questions.");
+            Console.WriteLine("At any time, you may type \"quit\" to exit or \"return\" to restart.");
             FortuneTelling();
         }
 
@@ -58,6 +59,9 @@ namespace FortuneTellerMethod
             // fortune output
             Console.WriteLine(firstName + " " + lastName + " will retire in " + RetirementYears(age) + " years with $" + RetirementMoney(birthMonth) + " in the bank, a vacation home in " + VacationHome(siblingNumber) + " and a " + Transportation(favoriteColor) + ".");
             FortuneQuality();
+            Console.WriteLine("Would you like to play again? Type \"quit\" to exit or \"restart\" to play again.");
+            userInput = Console.ReadLine().ToLower();
+            Quit(userInput);
         }
 
         // greeting message
@@ -184,7 +188,7 @@ namespace FortuneTellerMethod
         public static void FortuneQuality ()
         {
 
-            Console.WriteLine("I'm in Middle Earth?");
+            Console.WriteLine("Gandalf, is that you?");
         }
 
         public static void Quit(string userInput)
@@ -198,7 +202,6 @@ namespace FortuneTellerMethod
             else if (userInput.ToLower() == "restart")
             {
                 Console.Clear();
-                Console.SetCursorPosition(0, 0);
                 FortuneTelling();
             }
 
