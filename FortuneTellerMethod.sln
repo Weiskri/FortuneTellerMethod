@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FortuneTellerMethod", "FortuneTellerMethod\FortuneTellerMethod.csproj", "{173421A8-215D-4C44-A373-031B34D1BEE8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{173421A8-215D-4C44-A373-031B34D1BEE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{173421A8-215D-4C44-A373-031B34D1BEE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{173421A8-215D-4C44-A373-031B34D1BEE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{173421A8-215D-4C44-A373-031B34D1BEE8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70C44F92-6678-40E3-8F04-C8E16EE4AAB1}
+	EndGlobalSection
+EndGlobal
